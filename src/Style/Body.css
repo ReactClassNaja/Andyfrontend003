@@ -1,0 +1,54 @@
+.box{
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    width: 1480px;
+    height: 650px;
+    margin: 20px;
+    font-weight: bold;
+}
+
+.outside{
+    padding: 20px 20px;
+}
+
+.Circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border: 3px solid grey;
+    border-radius: 50%;
+    /* overflow: hidden; */
+}
+
+.Rectangle{
+    display: flex;
+    align-items: center;
+    width: 450px;
+    height: 60px;
+    /* top: 340px;
+    left: 251px; */
+    background-color: white;
+    border: 3px solid grey;
+    /* border-radius: 75px 0px 0px 75px; */
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .left {
+    left: 0;
+  }
+  
+  .right {
+    right: 0;
+  }
