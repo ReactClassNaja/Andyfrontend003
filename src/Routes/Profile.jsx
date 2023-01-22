@@ -14,7 +14,7 @@ export default function Profile(props) {
 
     useEffect(() => {
         axios({
-            url: 'http://localhost:3000/getuser/1',
+            url: window.$api + '/getuser/1',
             method: 'get'
         }).then(res => {
             console.log(res.data)
@@ -29,7 +29,7 @@ export default function Profile(props) {
 
     const handleUpdateUser = () => {
         axios({
-            url: 'http://localhost:3000/updateuser',
+            url: window.$api + '/updateuser',
             method: 'put',
             data: {
                 id: id,

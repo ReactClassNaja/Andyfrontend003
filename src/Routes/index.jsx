@@ -11,7 +11,7 @@ export default function () {
 
     useEffect(() => {
       axios({
-        url: 'http://localhost:3000/isLoggedIn',
+        url: window.$api + '/isLoggedIn',
         method: 'post',
         withCredentials: true
       }).then(res => {
