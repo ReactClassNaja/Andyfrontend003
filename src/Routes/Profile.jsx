@@ -130,7 +130,7 @@ export default function Profile(props) {
     } else {
         return (
             <div>
-                <h1>Please Login</h1>
+                <h1>Please Login Naja</h1>
                 <br />
                 <button onClick={handleGoLogin}>Login</button>
             </div>
